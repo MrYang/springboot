@@ -1,1 +1,1 @@
-insert into user("password","create_time","update_time","username") VALUES ("111111", "2015-10-10 10:10:10", "2015-10-10 10:10:10", "yxb");
+insert into user(username,password,create_time,update_time)VALUES('yxb','111111', '2015-10-10 10:10:10', '2015-10-10 10:10:10');
