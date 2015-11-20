@@ -1,0 +1,1 @@
+console.log("freemarker import js test");
