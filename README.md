@@ -9,6 +9,7 @@
 打开浏览器,运行[http://localhost:9000/dev/springboot/](http://localhost:9000/dev/springboot/) 就能看到效果了。
 
 系统使用了springboot的特性有:
+
 1. profile特性, application-{profile}中的配置会覆盖默认配置文件的属性
 2. 内嵌数据库支持,自动导入import.sql
 3. 静态文件演示
