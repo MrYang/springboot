@@ -14,7 +14,6 @@
 3. 静态文件演示
 4. freemarker模板演示
 5. spring-data-jpa audit 自动添加创建时间,更新时间
-6. 
 
 示例使用了h2内嵌数据库，系统初始化时自动导入import.sql，添加数据。
 
