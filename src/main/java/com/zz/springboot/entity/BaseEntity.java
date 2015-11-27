@@ -1,7 +1,7 @@
 package com.zz.springboot.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.zz.springboot.listener.TimestampedEntityAuditListener;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
@@ -11,7 +11,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @MappedSuperclass
-@EntityListeners(TimestampedEntityAuditListener.class)
+@EntityListeners(AuditingEntityListener.class)
 public abstract class BaseEntity implements Serializable {
 
     @Id
