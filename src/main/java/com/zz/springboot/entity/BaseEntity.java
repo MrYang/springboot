@@ -14,6 +14,7 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 public abstract class BaseEntity implements Serializable {
 
+    private static final long serialVersionUID = -5528454581592193034L;
     @Id
     @GeneratedValue
     private Long id;

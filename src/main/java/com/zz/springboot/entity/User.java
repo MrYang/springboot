@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 @Entity
 public class User extends BaseEntity {
 
+    private static final long serialVersionUID = 5896616485138744415L;
+
     @Column(nullable = false)
     private String username;
 
