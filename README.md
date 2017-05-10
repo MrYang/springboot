@@ -10,7 +10,7 @@
 
 系统使用了springboot的特性有:
 
-1. profile特性, application-{profile}中的配置会覆盖默认配置文件的属性
+1. profile特性, application-{profile}中的配置会覆盖默认配置文件的属性， --spring.profiles.active=dev, --spring.config.location=/data/appliction.properties
 2. 内嵌数据库支持,自动导入import.sql
 3. 静态文件演示
 4. freemarker模板演示
